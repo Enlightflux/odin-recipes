@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Odin Recipes</title>
-  <!-- using css as minimum as possible -->
-  <!-- trying to use more html commands -->
-  <style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Recipes</title>
+    <!-- using css as minimum as possible -->
+    <!-- trying to use more html commands -->
+    <style>
       body {
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(53, 53, 53);
       }
-      h1,h3,h4 {
+
+      h1,
+      h3,
+      h4 {
         text-transform: uppercase;
       }
       img {
@@ -23,50 +26,112 @@
       button {
         padding: 10px 15px;
         margin-bottom: 15px;
+        background-color: lavender;
+        color: rgb(143, 16, 67);
+        font-size: 13px;
+        border: 0;
+        border-radius: 20px;
+        /* font-weight: bold; */
       }
       a {
         line-height: 29px;
       }
-
-  </style>
-</head>
-<body>
-  <h1>Odin Recipes</h1>
-   <ul>
-      <li> 
-      <a href="recipes/lemon_fluff_snack_cake.html" target="_blank" rel="noopener noreferrer">Lemon Fluff Snack Cake</a></li>
-      <li><a href="recipes/Makhani_chicken.html" target="_blank" rel="noopener noreferrer">Makhani Chicken</a></li>
-      <li><a href="recipes/plum-streusel-muffins.html" target="_blank" rel="noopener noreferrer">Plum Streusel Muffins</a></li>
-      <li><a href="recipes/stuffed_eggplant.html" target="_blank" rel="noopener noreferrer">Stuffed Eggplant</a></li>
+      p {
+        text-transform: capitalize;
+        font-family: "Times New Roman", Times, serif;
+        color: teal;
+      }
+      a {
+        color: cornflowerblue;
+        text-decoration: none;
+        transition: all 0.2s;
+      }
+      a:hover {
+        font-weight: bold;
+        background-color: cornsilk;
+        border-radius: 10px;
+        padding: 07px 12px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Odin Recipes</h1>
+    <ul>
+      <li>
+        <a
+          href="recipes/lemon_fluff_snack_cake.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Lemon Fluff Snack Cake</a
+        >
+      </li>
+      <li>
+        <a
+          href="recipes/Makhani_chicken.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Makhani Chicken</a
+        >
+      </li>
+      <li>
+        <a
+          href="recipes/plum-streusel-muffins.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Plum Streusel Muffins</a
+        >
+      </li>
+      <li>
+        <a
+          href="recipes/stuffed_eggplant.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Stuffed Eggplant</a
+        >
+      </li>
     </ul>
 
-  <h2>Description of Recipes</h2>
-      <img src="./itemimages/lemon-fluff.jpg">
-      <p>Lemon Fluff Snack Cake</p>
-      <a href="recipes/lemon_fluff_snack_cake.html" target="_blank" rel="noopener noreferrer">
-        <button> View Description</button>   
-      </a>      
-<br>
-      <img src="./itemimages/makhani-chicken.jpg">
-      <p>Makhani Chicken</p>
-      <a href="recipes/Makhani_chicken.html" target="_blank" rel="noopener noreferrer">
-        <button> View Description</button>   
-      </a>   
-<br>
-      <img src="./itemimages/plum.jpg">
-      <p>Plum Streusel Muffins</p>
-      <a href="recipes/plum-streusel-muffins.html" target="_blank" rel="noopener noreferrer">
-        <button> View Description</button>   
-      </a>
-      
-  <br>
-      <img src="./itemimages/stuffed eggplant.jpg">
-      <p>stuffed eggplant</p>
-      <a href="recipes/stuffed_eggplant.html" target="_blank" rel="noopener noreferrer">
-        <button> View Description</button>   
-      </a>
+    <h2>Description of Recipes</h2>
+    <img src="./itemimages/lemon-fluff.jpg" />
+    <p>Lemon Fluff Snack Cake</p>
+    <a
+      href="recipes/lemon_fluff_snack_cake.html"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button>View Description</button>
+    </a>
+    <br />
+    <img src="./itemimages/makhani-chicken.jpg" />
+    <p>Makhani Chicken</p>
+    <a
+      href="recipes/Makhani_chicken.html"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button>View Description</button>
+    </a>
+    <br />
+    <img src="./itemimages/plum.jpg" />
+    <p>Plum Streusel Muffins</p>
+    <a
+      href="recipes/plum-streusel-muffins.html"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button>View Description</button>
+    </a>
 
-
-
-</body>
+    <br />
+    <img src="./itemimages/stuffed eggplant.jpg" />
+    <p>stuffed eggplant</p>
+    <a
+      href="recipes/stuffed_eggplant.html"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button>View Description</button>
+    </a>
+  </body>
 </html>
