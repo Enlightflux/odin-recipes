@@ -13,17 +13,17 @@
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   box-sizing: border-box;
+  border: none;
 
   /* border is only for checking layout and debugging */
-  border: 1px solid var(--yellow);
+  /* border: 1px solid var(--yellow); */
 }
 
 body {
   background-color: aliceblue;
-  height: 2000px;
+  /* height: 2000px; */
 }
 
 .header-container {
