@@ -1,0 +1,8 @@
+.menu-items div {
+  transition: border-bottom, 0.5s;
+}
+
+.menu-items div:hover {
+  border-bottom: 1px solid var(--white);
+  color: var(--white);
+}

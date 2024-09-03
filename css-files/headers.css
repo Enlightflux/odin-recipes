@@ -1,0 +1,101 @@
+:root {
+  --green: #5ac3b0;
+  --red: salmon;
+  --yellow: #f7cd46;
+  --gray: #9b9b9b;
+  --white: azure;
+  --blue: #0cafff;
+  --lightblue: #b2ffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-sizing: border-box;
+
+  /* border is only for checking layout and debugging */
+  border: 1px solid var(--yellow);
+}
+
+body {
+  background-color: aliceblue;
+  height: 2000px;
+}
+
+.header-container {
+  background-color: var(--red);
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.header {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.logo-name {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 100px;
+  padding: 10px;
+}
+.name {
+  margin: auto;
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.name .recipes {
+  font-weight: 300;
+}
+/* we need to work only after this
+this flex idea is hunting */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.menu-items {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  flex: 1;
+  padding: 10px 20px;
+}
+
+.menu-items div {
+  padding: 10px 20px;
+}
+/* We have worked after this */
+
+.signing {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.signup {
+  padding: 10px 20px;
+  background-color: #b2ffff;
+  color: #0cafff;
+  font-weight: 700;
+  border: none;
+}
+.login {
+  padding: 10px 20px;
+  background-color: var(--white);
+  margin-left: 20px;
+  border: none;
+}

@@ -4,60 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
-    <!-- using css as minimum as possible -->
-    <!-- trying to use more html commands -->
+    <link rel="stylesheet" href="css-files/headers.css" />
+    <link rel="stylesheet" href="css-files/menu-items.css" />
+    <link rel="stylesheet" href="css-files/heroimage.css" />
+    <link rel="stylesheet" href="css-files/main-text.css" />
     <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(53, 53, 53);
-      }
-
-      h1,
-      h3,
-      h4 {
-        text-transform: uppercase;
-      }
-      img {
-        width: 260px;
-      }
-      h2 {
-        color: blueviolet;
-      }
-      button {
-        padding: 10px 15px;
-        margin-bottom: 15px;
-        background-color: lavender;
-        color: rgb(143, 16, 67);
-        font-size: 13px;
-        border: 0;
-        border-radius: 20px;
-        /* font-weight: bold; */
-      }
-      a {
-        line-height: 29px;
-      }
-      p {
-        text-transform: capitalize;
-        font-family: "Times New Roman", Times, serif;
-        color: teal;
-      }
-      a {
-        color: cornflowerblue;
-        text-decoration: none;
-        transition: all 0.2s;
-      }
-      a:hover {
-        font-weight: bold;
-        background-color: cornsilk;
-        border-radius: 10px;
-        padding: 07px 12px;
-        margin: 10px;
-      }
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
     </style>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
+    <!-- header, logo, name, menu, login start -->
+    <div class="header-container">
+      <div class="header">
+        <div class="logo-name">
+          <img class="logo" src="Logo.png" alt="" />
+          <div class="name">Odin <span class="recipes">Recipes</span></div>
+        </div>
+        <div class="menu">
+          <div class="menu-items">
+            <div class="explore">Explore</div>
+            <div class="submit">Submit</div>
+            <div class="favourites">Favourites</div>
+          </div>
+          <div class="signing">
+            <button class="signup">Signup</button>
+            <button class="login">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header, logo, name, menu, login end -->
+    <!-- main area begin -->
+    <!-- main display area -->
+    <!-- <div class="heroimage">
+      <img src="itemimages/bg-photo-main.png" alt="" />
+    </div> -->
+    <!-- main display area end -->
+    <div class="main-body">
+      <div class="main-text">
+        <div class="screenwrite">
+          Explore a world of flavors with our diverse collection of
+          easy-to-follow recipes, perfect for every occasion. Whether you're a
+          seasoned chef or a home cook, these delicious dishes are crafted to
+          bring warmth and creativity to your kitchen, making every meal an
+          unforgettable experience.
+        </div>
+        <div class="slogan">Bringing <span>flavor</span> to every bite</div>
+        <button class="call-to-action">Call to Action</button>
+      </div>
+      <div class="mainphoto">
+        <img src="itemimages/bg-photo-main.png" alt="" />
+      </div>
+    </div>
+    <!--commentedout
+    <ul class="recipe-name">
       <li>
         <a
           href="recipes/lemon_fluff_snack_cake.html"
@@ -132,6 +132,6 @@
       rel="noopener noreferrer"
     >
       <button>View Description</button>
-    </a>
+    </a> -->
   </body>
 </html>
